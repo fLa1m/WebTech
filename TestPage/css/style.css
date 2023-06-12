@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Montserrat Personal;
+    src: url(../fonts/Montserrat-Medium.ttf);
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color: rgb(126, 8, 32);
+    color: aliceblue;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    margin: 2px 2px 0 2px;
+}
+
+.logo {
+    padding: 21px 58px 0 80px;
+}
+
+header img {
+    height: 200px;
+    width: 200px;
+}
+
+.hello {
+    font-family: Montserrat Personal;
+    font-size: 20px;
+    padding: 21px 58px 0 80px;
+}
+
+nav {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+}
+
+nav li {
+    padding: 35px 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    background-color: bisque;
+}
+
+a:hover {
+    color: red;
+}
+
+a:active {
+    color: fuchsia;
+}
