@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "ae2a8d28-4c41-4526-b227-df384c3474c5",
+		"name": "task004",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "28172770"
+	},
+	"item": [
+		{
+			"name": "GetOneUser",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://reqres.in/api/users/2",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users",
+						"2"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "CreateUser",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"email\":\"viktor.pupkin@reqres.in\",\r\n    \"first_name\":\"Viktor\",\r\n    \"last_name\":\"Pupkin\",\r\n    \"avatar\":\"https://reqres.in/img/faces/10-image.jpg\"}\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://reqres.in/api/users",
+					"protocol": "https",
+					"host": [
+						"reqres",
+						"in"
+					],
+					"path": [
+						"api",
+						"users"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
